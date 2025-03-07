@@ -149,6 +149,10 @@ button:hover {
   background-color: #000;
   padding: 1rem;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Loading Animation */
