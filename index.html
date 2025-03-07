@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Competitor Audit Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="https://www.noolmedia.in/"
+          ><img src="nool.png" alt="Logo"
+        /></a>
+      </div>
+      <ul class="nav-items">
+        <li><a href="https://www.noolmedia.in/">Home</a></li>
+        <li>
+          <a href="https://www.noolmedia.in/#mediaiskgjyue11">Services</a>
+        </li>
+        <li><a href="https://www.noolmedia.in/#comp-m0f8afp6">About Us</a></li>
+        <li><a href="https://www.noolmedia.in/blog">Blog</a></li>
+        <li><a href="https://www.noolmedia.in/#comp-lsvshvee">Projects</a></li>
+        <li>
+          <a href="https://www.noolmedia.in/#comp-lsvshvef1">Lets Talk</a>
+        </li>
+        <li>
+          <a href="https://seo-report.onrender.com/"
+            ><button class="sitescore">Site score ></button></a
+          >
+        </li>
+        <li>
+          <a href="https://www.noolmedia.in/#comp-lsvshvef1"
+            >SEO Snippet Optimizer</a
+          >
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div id="loading" class="hidden">
+      <div class="spinner"></div>
+      <p>We are getting your result please wait..😊</p>
+    </div>
+    <div class="container">
+      <h1>Competitor Audit Tool</h1>
+      <p>
+        Compare your website with a competitor's to analyze SEO performance.
+      </p>
+
+      <label>Your Website URL:</label>
+      <input
+        type="text"
+        id="yourWebsite"
+        placeholder="https://yourwebsite.com"
+      />
+
+      <label>Competitor's Website URL:</label>
+      <input
+        type="text"
+        id="competitorWebsite"
+        placeholder="https://competitor.com"
+      />
+
+      <button onclick="analyzeCompetitors()">Analyze</button>
+
+      <div id="report" class="hidden">
+        <h2>Audit Report</h2>
+        <div id="comparisonResults"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
