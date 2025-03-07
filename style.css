@@ -152,19 +152,20 @@ button:hover {
 }
 
 /* Loading Animation */
-.hidden {
-  display: none;
-}
 
 #loading {
   margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
   color: #fff;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   flex-direction: column;
+}
+.hidden {
+  display: none !important;
 }
 #loading p {
   margin: 0 auto;
