@@ -174,3 +174,7 @@ async function analyzeCompetitors() {
   loading.classList.add("hidden");
   reportDiv.classList.remove("hidden");
 }
+document.getElementById("hamburger").addEventListener("click", function () {
+  const navItems = document.querySelector(".nav-items");
+  navItems.classList.toggle("active");
+});
