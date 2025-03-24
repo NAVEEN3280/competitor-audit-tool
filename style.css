@@ -143,10 +143,11 @@ button:hover {
   background: #f9f9f9;
   padding: 15px;
   border-radius: 5px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 #report {
-  background-color: #000;
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 1rem;
   margin: 1rem;
   border-radius: 10px;
@@ -210,7 +211,7 @@ button:hover {
   font-weight: bold;
 }
 #comparisonResults {
-  background-color: #000;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 768px) {
   .nav-items {
